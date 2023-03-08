@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Cyan-color: hsl(179, 62%, 43%);
+  --bright-yellow-color: hsl(71, 73%, 54%);
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+  font-family: "Karla", sans-serif;
+}
+
+/*Mobile*/
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.component {
+  width: 12.25vw;
+  height: 54.85vh;
+}
+
+.first_section {
+  height: 19.35vh;
+  border: 1px solid green;
+}
+.first_section p {
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: -0.17px;
+  color: var(--Grayish-Blue);
+  width: 10.5vw;
+  padding-left: 1vw;
+  padding-top: 1.3vh;
+}
+.second_section {
+  height: 17.3vh;
+  background-color: var(--Cyan-color);
+}
+.button {
+  width: 263px;
+  height: 48px;
+  background-color: var(--bright-yellow-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 20px;
+  color: var(--Cyan-color);
+  font-weight: 700;
+  padding-left: 0.9vw;
+  padding-top: 1.14vh;
+}
+h2 {
+  font-size: 18px;
+  padding-left: 1.5rem;
+  padding-top: 1.6vh;
+  letter-spacing: -0.22px;
+  font-weight: 700;
+  color: white;
+}
+h3 {
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--bright-yellow-color);
+  letter-spacing: -0.19px;
+  width: 9vw;
+  padding-left: 1vw;
+  padding-top: 1.8vh;
+}
+.third_section {
+  height: 17.1vh;
+  background-color: #4bbfbc;
+}
+li {
+  list-style: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 50%;
+}
+footer:hover {
+  opacity: 100%;
+}
+footer a {
+  text-decoration: none;
+}
